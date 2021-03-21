@@ -8,20 +8,29 @@ To build Web - App for classsifing Tomato plant diseases.
 
 Download the data set from the kaggle https://www.kaggle.com/noulam/tomato
 1. Here we are having 10 categories of diseases  
-
-    where the categories are numbered 0 to 9, in the following order:
+2. where the categories are numbered 0 to 9, in the following order:
     
-    <b>
-    0 Tomato___Early_blight
-    1 Tomato___healthy
-    2 Tomato___Tomato_mosaic_virus
-    3 Tomato___Tomato_Yellow_Leaf_Curl_Virus
-    4 Tomato___Late_blight
-    5 Tomato___Target_Spot
-    6 Tomato___Septoria_leaf_spot
-    7 Tomato___Bacterial_spot
-    8 Tomato___Spider_mites Two-spotted_spider_mite
-    9 Tomato___Leaf_Mold <b/>
+<b>
+    
+0 Tomato___Early_blight
+    
+1 Tomato___healthy
+
+2 Tomato___Tomato_mosaic_virus
+
+3 Tomato___Tomato_Yellow_Leaf_Curl_Virus
+
+4 Tomato___Late_blight
+
+5 Tomato___Target_Spot
+
+6 Tomato___Septoria_leaf_spot
+
+7 Tomato___Bacterial_spot
+
+8 Tomato___Spider_mites Two-spotted_spider_mite
+
+9 Tomato___Leaf_Mold <b/>
     
 # Model Building 
 Model-1 we have build VGG16 with with Adam optimizer, got validation acuuracy of 92%.
